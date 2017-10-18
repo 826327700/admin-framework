@@ -1,0 +1,51 @@
+html,
+body {
+    height: 100%;
+    font-size: 14px!important;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+.layout-hide-text {
+    .ivu-menu-vertical {
+        .ivu-menu-submenu-title-icon {
+            display: none!important;
+        }
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 4px;
+    background-color: #F5F5F5;
+}
+
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+ ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background: #fff;
+}
+
+
+/*定义滑块 内阴影+圆角*/
+
+ ::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.ivu-breadcrumb a {
+    color: #999!important;
+}
+
+.ivu-breadcrumb>span:last-child a {
+    color: #495060!important;
+}

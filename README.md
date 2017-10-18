@@ -10,3 +10,20 @@
 4.支持同步和异步组件加载，分别在router-sync.js和router.js进行配置，在main.js中自行更改引用     
 
 ### 截图
+
+
+### 截图
+进入项目目录       
+
+1.安装依赖
+```
+npm install
+```
+2.运行dev模式      
+```
+npm run dev
+```
+3.打包    
+```
+npm run build
+```
